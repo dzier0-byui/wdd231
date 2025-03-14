@@ -10,12 +10,14 @@
         <link rel="stylesheet" href="styles/home-small.css">
         <script src="scripts/date.js" defer></script>
         <script src="scripts/classes.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat:ital@0;1&family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <span>
-                <img src="images/profile.jpg" alt="profile-picture">
-                <p>Cody Dzierzon</p>
+                <img src="images/profile.jpg" alt="profile-picture">Cody Dzierzon
             </span>
             <nav>
                 <a href="#" class="active">Home</a>
@@ -41,9 +43,9 @@
             <section class="section-certificate">
                 <h2>Web and Computer Programming Certificate</h2>
                 <div class="classes-nav">
-                    <button id="button" onclick="filterCourses('all')">All</button>
-                    <button id="button" onclick="filterCourses('CSE')">CSE</button>
-                    <button id="button" onclick="filterCourses('WDD')">WDD</button>
+                    <button class="button" onclick="filterCourses('all')">All</button>
+                    <button class="button" onclick="filterCourses('CSE')">CSE</button>
+                    <button class="button" onclick="filterCourses('WDD')">WDD</button>
                 </div>
                 <br>
                 <div class="classes-option" id="class-options">
