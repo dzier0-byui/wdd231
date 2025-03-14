@@ -12,18 +12,35 @@ header {
     justify-content: space-between;
     background-color: #112240;
     padding: 15px 30px;
+    flex-direction: column;
+}
+
+br {
+    color: white;
+}
+
+header span {
+    display: flex;
 }
 
 header span img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 60px;
+    height: auto;
 }
 
 header p {
     font-size: 1.5rem;
     font-weight: bold;
     margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: white 2px solid;
+    width: 100%;
+    justify-content: center;
 }
 
 nav a {
@@ -44,34 +61,94 @@ main {
     gap: 20px;
 }
 
+main h1 {
+    grid-column: span 3;
+}
+
+section h2 {
+    text-align: center;
+    border-bottom: white 2px solid;
+    padding-bottom: 10px;
+}
+
 .section-coursework {
     grid-column: span 2;
     background-color: #1b2c4a;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     border-radius: 8px;
 }
 
 .section-knysna {
     grid-column: span 1;
     background-color: #1b2c4a;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     border-radius: 8px;
+}
+
+.section-knysna img {
+    width: 100%;
 }
 
 .section-certificate {
     grid-column: span 3;
     background-color: #1b2c4a;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     border-radius: 8px;
 }
 
-h1, h2 {
-    color: #66fcf1;
+.classes-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.classes-nav button {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 0;
+    background-color: #0a192f;
+    text-align: center;
+    padding: 10px;
+    width: 110px;
+    border-radius: 10px;
+    color:white;
+    border: black 1px solid;
+}
+
+.classes-nav button:hover {
+    background-color: #2e2c41;
+}
+
+h1, h2, .active {
+    color: #66fcf1 !important;
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: circle;
     padding: 0;
+    margin-left: 15px;
+}
+
+.classes-option {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.classes-option p {
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(95, 21, 21);
+    border-radius: 10px;
+    border: black 1px solid;
+}
+
+.completed{
+
+    background-color: rgb(247, 247, 247) !important;
+    color: black;
 }
 
 footer {

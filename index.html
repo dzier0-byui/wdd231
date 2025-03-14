@@ -9,14 +9,16 @@
         <link rel="stylesheet" href="styles/home.css">
         <link rel="stylesheet" href="styles/home-small.css">
         <script src="scripts/date.js" defer></script>
+        <script src="scripts/classes.js" defer></script>
     </head>
     <body>
         <header>
             <span>
-                <img src="images/profile.jpg" alt="profile-picture"></span>
+                <img src="images/profile.jpg" alt="profile-picture">
                 <p>Cody Dzierzon</p>
+            </span>
             <nav>
-                <a href="#">Home</a>
+                <a href="#" class="active">Home</a>
                 <a href="#">Chamber</a>
                 <a href="https://github.com/dzier0-byui">GitHub Profile</a>
                 <a href="https://www.linkedin.com/in/cody-dzierzon/">LinkedIn</a>
@@ -27,31 +29,26 @@
             <section class="section-coursework">
                 <h2>Course Work</h2>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li> </li>
+                    <li> </li>
+                    <li> </li>
                 </ul>
             </section>
             <section class="section-knysna">
                 <h2>Knysna, South Africa</h2>
-                <img src="images/elephant.webp" alt="elephants">
+                <img src="images/elephant.jpg" alt="elephants">
             </section>
             <section class="section-certificate">
                 <h2>Web and Computer Programming Certificate</h2>
-                <div>
-                    <p>All</p>
-                    <p>CSE</p>
-                    <p>WDD</p>
+                <div class="classes-nav">
+                    <button id="button" onclick="filterCourses('all')">All</button>
+                    <button id="button" onclick="filterCourses('CSE')">CSE</button>
+                    <button id="button" onclick="filterCourses('WDD')">WDD</button>
                 </div>
                 <br>
-                <div>
-                    <p>CSE 110</p>
-                    <p>WDD 130</p>
-                    <p>CSE 111</p>
-                    <p>CSE 210</p>
-                    <p>WDD 131</p>
-                    <p>WDD 231</p>
+                <div class="classes-option" id="class-options">
                 </div>
+                <p>Total Credits: <span id="total-credits">0</span></p>
             </section>
         </main>
         <footer>

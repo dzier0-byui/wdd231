@@ -1,0 +1,16 @@
+@media (max-width: 420px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    .section-coursework, .section-knysna, .section-certificate {
+        grid-column: span 1;
+    }
+
+    main h1 {
+        grid-column: span 1;
+    }
+
+    .classes-option {
+        grid-template-columns:  1fr;
+    }
+}
