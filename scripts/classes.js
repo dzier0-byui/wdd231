@@ -97,9 +97,9 @@ function populateClasses(filteredCourses) {
 
 function filterCourses(category) {
     let filteredCourses;
-    
+
     if (category === 'all') {
-        filteredCourses = courses;
+        filteredCourses = courses; 
     } else {
         filteredCourses = courses.filter(course => course.subject === category);
     }
@@ -107,4 +107,14 @@ function filterCourses(category) {
     populateClasses(filteredCourses);
 }
 
-document.addEventListener('DOMContentLoaded', () => filterCourses('all'));
+document.addEventListener('DOMContentLoaded', () => {
+    
+    document.querySelectorAll('.classes-nav .button').forEach(button => {
+        button.addEventListener('click', () => {
+            const category = button.dataset.category;
+            filterCourses(category);
+        });
+    });
+
+    filterCourses('all');
+});
