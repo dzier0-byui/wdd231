@@ -6,21 +6,52 @@
         <title>WDD 231 - Cody Dzierzon</title>
         <meta name="description" content="WDD231 - Chamber Home - Cody Dzierzon">
         <meta name="author" content="Cody Dzierzon">
-        <link rel="stylesheet" href="styles/home.css">
-        <link rel="stylesheet" href="styles/home-small.css">
-        <script src="scripts/date.js" defer></script>
+        <link rel="stylesheet" href="styles/directory.css">
+        <script src="scripts/dates.js" defer></script>
+        <script src="scripts/directory.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat:ital@0;1&family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
+            <div id="logo">
+                <img src="images/arches.jpg" alt="slc-logo">
+                <strong><p class="page-title">Salt Lake Chamber of Commerce</p></strong>
+            </div>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">Directory</a>
+                <a href="#">Join</a>
+                <a href="#">Discover</a>
+            </nav>
         </header>
-        <main>
+         <main>
+            <img src="images/hero-2.jpg" alt="wide-landscape" class="hero-img">
+            <h1>Business Directory</h1>
+            
+            <div class="view-toggle">
+                <button id="grid-view">Grid View</button>
+                <button id="list-view">List View</button>
+            </div>
 
+            <section id="members" class="grid-view"></section>
         </main>
         <footer>
+            <div id="contact-info">
+                <p>Salt Lake Chamber of Commerce</p>
+                <p>201 South Main Street #2300</p>
+                <p>Salt Lake City, UT 84111</p>
+                <p>Phone: (801) 364-3631</p>
+                <p>Email: info@slcchamber.com</p>
+            </div>
+            <div id="social-tags">
 
+            </div>
+            <div>
+                <p>© <span id="currentyear"></span> Cody Dzierzon - United States</p>
+                <p>Last modified: <span id="lastmodified"></span></p>
+            </div>
         </footer>
     </body>
 </html>

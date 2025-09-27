@@ -1,0 +1,60 @@
+{
+  "members": [
+    {
+      "name": "Tech Solutions Inc.",
+      "address": "123 Innovation Way, Salt Lake City, UT 84101",
+      "phone": "801-555-1234",
+      "website": "https://techsolutions.com",
+      "image": "techsolutions.jpg",
+      "membership": "Gold"
+    },
+    {
+      "name": "Mountain View Realty",
+      "address": "456 Summit Ave, Salt Lake City, UT 84102",
+      "phone": "801-555-5678",
+      "website": "https://mountainviewrealty.com",
+      "image": "mountainviewrealty.jpg",
+      "membership": "Silver"
+    },
+    {
+      "name": "Fresh Brews Coffee",
+      "address": "789 Bean St, Salt Lake City, UT 84103",
+      "phone": "801-555-9876",
+      "website": "https://freshbrews.com",
+      "image": "freshbrews.webp",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Wasatch Fitness",
+      "address": "321 Peak Blvd, Salt Lake City, UT 84104",
+      "phone": "801-555-2468",
+      "website": "https://wasatchfitness.com",
+      "image": "wasatchfitness.jpg",
+      "membership": "Gold"
+    },
+    {
+      "name": "Bright Futures Academy",
+      "address": "654 Learning Ln, Salt Lake City, UT 84105",
+      "phone": "801-555-1357",
+      "website": "https://brightfutures.edu",
+      "image": "brightfutures.jpg",
+      "membership": "Non-Profit"
+    },
+    {
+      "name": "Green Earth Landscaping",
+      "address": "987 Garden Rd, Salt Lake City, UT 84106",
+      "phone": "801-555-8642",
+      "website": "https://greenearth.com",
+      "image": "greenearth.jpg",
+      "membership": "Silver"
+    },
+    {
+      "name": "Skyline Insurance",
+      "address": "222 Horizon St, Salt Lake City, UT 84107",
+      "phone": "801-555-7531",
+      "website": "https://skylineinsurance.com",
+      "image": "skylineinsurance.jpg",
+      "membership": "Bronze"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffffff;
+    color: #0a1a2f;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header #logo {
+    display: flex;
+}
+
+header nav {
+    margin: auto 0;
+}
+
+header nav a {
+    padding-left: 20px;
+    color: #0a1a2f;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline !important;
+}
+
+header nav a:hover {
+    text-decoration: underline !important;
+    color:rgb(0, 137, 137) !important;
+}
+
+.hero-img {
+    width: 100vw;
+    padding-top: 0;
+}
+
+.page-title {
+    font-size: 19px;
+}
+
+
+header img {
+    width: 90px;
+    height: auto;
+}
+
+header, footer {
+    padding: 1rem 3.5rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    border-bottom: none;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin: 1rem 0;
+    border-top: none !important;
+}
+
+/* Section dividers */
+main > * {
+    border-top: 1px solid #ccc;
+    padding: 1rem 0;
+}
+
+/* View toggle */
+.view-toggle {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.view-toggle button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #0a1a2f;
+  background: white;
+  color: #0a1a2f;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.view-toggle button:hover {
+  background: #0a1a2f;
+  color: white;
+}
+
+/* Members grid */
+#members.grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem 3rem;
+}
+
+.member-card {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.member-card img {
+  max-width: 120px;
+  height: auto;
+  display: block;
+  margin: 0.5rem auto 0 auto;
+}
+
+/* List view */
+#members.list-view {
+  display: block;
+}
+
+#members.list-view .member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#members.list-view img {
+  display: none;
+}
+
+#members.list-view h2 {
+  margin: 0 0 0.25rem 0;
+}
