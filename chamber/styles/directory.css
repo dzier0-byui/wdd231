@@ -143,6 +143,10 @@ main > * {
     text-align: center;  
 }
 
+.members-table {
+    display: none;
+}
+
 .members-table table {
   width: 100%;
   border-collapse: collapse;
