@@ -50,4 +50,13 @@
     footer div {
         border-bottom: 1px solid #ccc; 
     }
+
+     .member-card img {
+        max-width: 100px;
+    }
+
+    .members-table th,
+    .members-table td {
+        padding: 0.25rem 0.5rem;
+    }
 }
