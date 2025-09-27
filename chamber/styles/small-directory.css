@@ -1,0 +1,53 @@
+@media (max-width: 600px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0.5rem 1rem; 
+    }
+    
+    .active {
+        text-decoration: none !important;
+    }
+
+    header img {
+        display: none; 
+    }
+
+    .page-title {
+        font-size: 16px;
+    }
+
+    #menu-toggle {
+        display: block; 
+    }
+
+    header nav {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        background: #f4f4f4;
+        position: absolute;
+        top: 50px; 
+        left: 0;
+        border-top: 1px solid #ccc;
+        z-index: 10; 
+    }
+
+    header nav a {
+        padding: 0.75rem 1rem;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    header nav.show {
+        display: flex; 
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer div {
+        border-bottom: 1px solid #ccc; 
+    }
+}

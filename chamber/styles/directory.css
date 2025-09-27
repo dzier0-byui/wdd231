@@ -11,10 +11,25 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3.5rem; 
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+    position: relative; 
 }
 
 header #logo {
     display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 90px;
+    height: auto;
+}
+
+.page-title {
+    font-size: 19px;
 }
 
 header nav {
@@ -33,7 +48,16 @@ header nav a {
 
 header nav a:hover {
     text-decoration: underline !important;
-    color:rgb(0, 137, 137) !important;
+    color: rgb(0, 137, 137) !important;
+}
+
+#menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #0a1a2f;
 }
 
 .hero-img {
@@ -43,12 +67,6 @@ header nav a:hover {
 
 .page-title {
     font-size: 19px;
-}
-
-
-header img {
-    width: 90px;
-    height: auto;
 }
 
 header, footer {
