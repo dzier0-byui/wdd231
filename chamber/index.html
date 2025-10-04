@@ -3,19 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Salt Lake Chamber | Directory</title>
-        <meta name="description" content="Explore the Salt Lake Chamber of Commerce business directory.">
+        <title>Salt Lake Chamber of Commerce</title>
+        <meta name="description" content="Explore the Salt Lake Chamber of Commerce.">
         <meta name="author" content="Cody Dzierzon">
-        <meta property="og:title" content="Salt Lake Chamber | Directory">
-        <meta property="og:description" content="Explore the Salt Lake Chamber of Commerce business directory.">
+        <meta property="og:title" content="Salt Lake Chamber of Commerce">
+        <meta property="og:description" content="Explore the Salt Lake Chamber of Commerce.">
         <meta property="og:url" content="https://dzier0-byui.github.io/wdd231/chamber/directory.html">
         <meta property="og:image" content="https://dzier0-byui.github.io/wdd231/chamber/images/hero-2.jpg">
         <link rel="icon" type="image/png" href="images/arches.jpg">
+        <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/directory.css">
         <link rel="stylesheet" href="styles/small-directory.css">
+        <link rel="stylesheet" href="styles/weather.css">
         <script src="scripts/dates.js" defer></script>
-        <script src="scripts/directory.js" defer></script>
+        <script src="scripts/events.js" defer></script>
+        <script src="scripts/spotlight.js" defer></script>
         <script src="scripts/nav.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat:ital@0;1&family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
@@ -29,40 +33,37 @@
 
             <button id="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="#" class="active">Directory</a>
+                <a href="#"  class="active">Home</a>
+                <a href="directory.html">Directory</a>
                 <a href="#">Join</a>
                 <a href="#">Discover</a>
             </nav>
         </header>
         <main>
-            <img src="images/hero-2.jpg" alt="wide-landscape" class="hero-img">
-            <h1>Business Directory</h1>
-            
-            <div class="view-toggle">
-                <button id="grid-view">Grid View</button>
-                <button id="list-view">List View</button>
-            </div>
-
-            <section id="members-grid" class="members-grid">
+            <img src="images/salt-lake-hero2.jpg" alt="wide-landscape" class="hero-img">
+            <h1 class="main-title">Salt Lake City Chamber of Commerce</h1>
+            <p class="join-here no-border">Join Chamber of Commerce <a href="#" class="join-here-link">Here</a></p>
+            <h2 class="big-title">Local Events</h2>
+            <section id="events-grid" class="event-grid no-border">
             </section>
 
-            <section id="members-table" class="members-table">
-            <div class="table-wrapper">
-                <table>
-                <thead>
-                    <tr>
-                    <th>Business Name</th>
-                    <th>Address</th>
-                    <th>Phone</th>
-                    <th>Website</th>
-                    <th>Membership</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-                </table>
-            </div>
+            <h2 class="big-title">Weather</h2>
+            <section id="weather-section">
+                <section class="weather-card" id="current-weather">
+                    <h2>Current Weather</h2>
+                    <p>Temperature: <span id="current-temp"></span></p>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption id="caption-desc"></figcaption>
+                </section>
+
+                <section>
+                    <div class="forecast-grid" id="forecast-grid">
+                    </div>
+                </section>
+            </section>
+
+            <h2 class="big-title">Company Spotlight</h2>
+            <section id="members-grid" class="members-grid-spotlight no-border">
             </section>
         </main>
         <footer>

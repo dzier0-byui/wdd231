@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "title": "Downtown Business Networking Mixer",
+      "date": "2025-10-15",
+      "time": "6:00 PM - 8:00 PM",
+      "location": "Salt Palace Convention Center, Salt Lake City, UT",
+      "description": "An evening networking event for local business owners and professionals to connect, share ideas, and build partnerships.",
+      "image": ""
+    },
+    {
+      "title": "Fall Community Market & Expo",
+      "date": "2025-10-22",
+      "time": "10:00 AM - 4:00 PM",
+      "location": "Pioneer Park, Salt Lake City, UT",
+      "description": "A family-friendly market featuring local vendors, food trucks, live music, and community showcases.",
+      "image": ""
+    },
+    {
+      "title": "Small Business Workshop: Digital Growth Strategies",
+      "date": "2025-11-05",
+      "time": "9:00 AM - 12:00 PM",
+      "location": "Salt Lake City Public Library – Main Branch",
+      "description": "A free workshop for entrepreneurs and small businesses covering online marketing, SEO, and social media growth strategies.",
+      "image": ""
+    }
+  ]
+}

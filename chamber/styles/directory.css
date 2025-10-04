@@ -91,6 +91,10 @@ h1 {
     border-top: none !important;
 }
 
+.no-border {
+    border-top: none !important;
+}
+
 /* Section dividers */
 main > * {
     border-top: 1px solid #ccc;
@@ -118,10 +122,11 @@ main > * {
   color: white;
 }
 
-.members-grid {
+.members-grid, .members-grid-spotlight, .event-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
+  margin: 2rem;
 }
 
 .member-card img {
@@ -130,6 +135,8 @@ main > * {
     height: auto;       
     display: block;      
     margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .member-card {
