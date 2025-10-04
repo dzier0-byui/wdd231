@@ -25,17 +25,27 @@ async function apiFetch() {
 }
 
 function displayCurrentWeather(data) {
-    const forecast = data.list[0]; 
+    const currentWeatherSection = document.getElementById("current-weather");
+    currentWeatherSection.innerHTML = "";
 
-    currentTemp.innerHTML = `${forecast.main.temp.toFixed(1)}&deg;F`;
+    const forecast = data.list[0];
 
     const iconCode = forecast.weather[0].icon;
     const iconsrc = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
     const desc = forecast.weather[0].description;
+    const temp = forecast.main.temp.toFixed(1);
+    const date = new Date(forecast.dt * 1000);
+    const options = { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "numeric" };
+    const dateStr = date.toLocaleDateString(undefined, options);
 
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
-    captionDesc.textContent = `${desc} (Forecast for ${forecast.dt_txt})`;
+    const cardHTML = `
+        <h2>Current Weather</h2>
+        <p>Temperature: ${temp}&deg;F</p>
+        <img src="${iconsrc}" alt="${desc}">
+        <figcaption>${desc} (Forecast for ${dateStr})</figcaption>
+    `;
+
+    currentWeatherSection.innerHTML = cardHTML;
 }
 
 function displayForecast(data) {
@@ -55,7 +65,7 @@ function displayForecast(data) {
     const card = document.createElement('div');
     card.classList.add('weather-card');
     card.innerHTML = `
-        <h3>${dateStr}</h3>
+        <h2>${dateStr}</h2>
         <img src="${iconsrc}" alt="${desc}">
         <p>${temp}°F</p>
         <p>${desc}</p>
