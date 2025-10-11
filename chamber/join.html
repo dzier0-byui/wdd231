@@ -94,32 +94,80 @@
                 <section id="membershipInfo" class="membership-grid">
                     <div class="membership-card" id="npCard">
                         <h3>NP Membership</h3>
-                        <a href="#npModal" class="info-link">View Benefits</a>
+                        <p class="price">Free</p>
+                        <p>Perfect for nonprofit organizations who want to connect with other professionals and gain visibility without any cost.</p>
+                        <a href="#" class="info-link" data-modal="npModal">View Benefits</a>
+                    </div>
+
+                    <div class="membership-card" id="bronzeCard">
+                        <h3>Bronze Membership</h3>
+                        <p class="price">$99 / year</p>
+                        <p>A solid starting tier for growing organizations. Get visibility, support, and networking opportunities.</p>
+                        <a href="#" class="info-link" data-modal="bronzeModal">View Benefits</a>
+                    </div>
+
+                    <div class="membership-card" id="silverCard">
+                        <h3>Silver Membership</h3>
+                        <p class="price">$249 / year</p>
+                        <p>For growing businesses looking to expand their reach and access premium resources.</p>
+                        <a href="#" class="info-link" data-modal="silverModal">View Benefits</a>
+                    </div>
+
+                    <div class="membership-card" id="goldCard">
+                        <h3>Gold Membership</h3>
+                        <p class="price">$499 / year</p>
+                        <p>For leaders who want full visibility, access, and recognition. This top-tier plan ensures maximum value and influence.</p>
+                        <a href="#" class="info-link" data-modal="goldModal">View Benefits</a>
                     </div>
 
                     <dialog id="npModal">
-                        <h2>NP Membership</h2>
-                        <p>Perfect for non-profit organizations. No fee, full access to community resources.</p>
-                        <button id="closeModal">Close</button>
+                        <h2>NP Membership Benefits</h2>
+                        <ul>
+                            <li>✅ Free membership</li>
+                            <li>✅ Access to all standard events and workshops</li>
+                            <li>✅ Organization listed in the member directory</li>
+                            <li>✅ Volunteer and collaboration opportunities</li>
+                            <li>✅ Community resource sharing</li>
+                        </ul>
+                        <button class="closeModal">Close</button>
                     </dialog>
-                
-                    <div class="membership-card" id="bronzeCard">
-                        <h3>Bronze Membership</h3>
-                        <p>Affordable plan with access to member events and networking opportunities.</p>
-                        <a href="#bronzeModal" class="info-link">View Benefits</a>
-                    </div>
-                
-                    <div class="membership-card" id="silverCard">
-                        <h3>Silver Membership</h3>
-                        <p>Includes all Bronze benefits plus training sessions and featured listings.</p>
-                        <a href="#silverModal" class="info-link">View Benefits</a>
-                    </div>
-                
-                    <div class="membership-card" id="goldCard">
-                        <h3>Gold Membership</h3>
-                        <p>All-inclusive access with advertising spots, event discounts, and VIP perks.</p>
-                        <a href="#goldModal" class="info-link">View Benefits</a>
-                    </div>
+
+                    <dialog id="bronzeModal">
+                        <h2>Bronze Membership Benefits</h2>
+                        <ul>
+                            <li>✅ Everything in NP Membership</li>
+                            <li>✅ Access to members-only events</li>
+                            <li>✅ Discounted training sessions</li>
+                            <li>✅ Featured mentions in newsletters</li>
+                            <li>✅ Priority email support</li>
+                        </ul>
+                        <button class="closeModal">Close</button>
+                    </dialog>
+
+                    <dialog id="silverModal">
+                        <h2>Silver Membership Benefits</h2>
+                        <ul>
+                            <li>✅ All Bronze benefits</li>
+                            <li>✅ Free access to monthly workshops</li>
+                            <li>✅ Social media promotion for your organization</li>
+                            <li>✅ Mid-level advertising placement on our homepage</li>
+                            <li>✅ One-on-one growth consultation (1 per year)</li>
+                        </ul>
+                        <button class="closeModal">Close</button>
+                    </dialog>
+
+                    <dialog id="goldModal">
+                        <h2>Gold Membership Benefits</h2>
+                        <ul>
+                            <li>✅ All Silver benefits</li>
+                            <li>✅ VIP access to networking events</li>
+                            <li>✅ Dedicated advertising banner on homepage</li>
+                            <li>✅ Free booth at annual conference</li>
+                            <li>✅ Exclusive sponsorship opportunities</li>
+                            <li>✅ Personalized support and strategy session</li>
+                        </ul>
+                        <button class="closeModal">Close</button>
+                    </dialog>
                 </section>
             </div>
         </main>

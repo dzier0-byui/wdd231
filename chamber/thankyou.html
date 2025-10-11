@@ -14,8 +14,10 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/directory.css">
         <link rel="stylesheet" href="styles/small-directory.css">
+        <link rel="stylesheet" href="styles/thankyou.css">
         <script src="scripts/dates.js" defer></script>
         <script src="scripts/nav.js" defer></script>
+        <script src="scripts/thankyou.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat:ital@0;1&family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
@@ -36,8 +38,19 @@
             </nav>
         </header>
         <main>
-            <h1 class="main-title">Thank you!! You have joined the Salt Lake City Chamber of Commerce</h1>
-            
+            <div class="thank-you-container">
+                <h1>Thank You!</h1>
+                <p>Your application has been submitted successfully.</p>
+
+                <div class="info">
+                    <p><span>First Name:</span> <span id="firstName" class="personalInfo"></span></p>
+                    <p><span>Last Name:</span> <span id="lastName" class="personalInfo"></span></p>
+                    <p><span>Email:</span> <span id="email" class="personalInfo"></span></p>
+                    <p><span>Mobile Phone:</span> <span id="mobile" class="personalInfo"></span></span></p>
+                    <p><span>Organization Name:</span> <span id="organization" class="personalInfo"></span></p>
+                    <p><span>Submission Timestamp:</span> <span id="timestamp" class="personalInfo"></span></p>
+                </div>
+            </div>
         </main>
         <footer>
             <div id="contact-info">
