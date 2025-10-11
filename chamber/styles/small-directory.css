@@ -43,6 +43,10 @@
         display: flex; 
     }
 
+    .form-info {
+        flex-direction: column !important;
+    }
+
     footer {
         flex-direction: column;
     }
