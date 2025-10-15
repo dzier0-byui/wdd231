@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #014421;
+    --background-color: #f4f4f4;
+    --content-bg: #ffffff;
+    --text-color: #333;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+section {
+    background-color: var(--content-bg);
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.3rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+.wireframes img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+}
