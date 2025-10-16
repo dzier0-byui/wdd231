@@ -103,30 +103,30 @@ main > * {
 
 /* View toggle */
 .view-toggle {
-  text-align: center;
-  margin: 1rem 0;
+    text-align: center;
+    margin: 1rem 0;
 }
 
 .view-toggle button {
-  margin: 0 0.5rem;
-  padding: 0.5rem 1rem;
-  border: 1px solid #0a1a2f;
-  background: white;
-  color: #0a1a2f;
-  cursor: pointer;
-  border-radius: 4px;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #0a1a2f;
+    background: white;
+    color: #0a1a2f;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 .view-toggle button:hover {
-  background: #0a1a2f;
-  color: white;
+    background: #0a1a2f;
+    color: white;
 }
 
 .members-grid, .members-grid-spotlight, .event-grid, .membership-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 2rem;
 }
 
 .member-card img {

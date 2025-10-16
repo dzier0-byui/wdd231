@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Temple Square",
+    "address": "50 N Temple, Salt Lake City, UT 84150",
+    "description": "A 10-acre complex in downtown Salt Lake City, home to the Salt Lake Temple and historic buildings.",
+    "image": "images/temple-square.webp"
+  },
+  {
+    "name": "Utah State Capitol",
+    "address": "350 State St, Salt Lake City, UT 84103",
+    "description": "An elegant neoclassical building offering tours and panoramic views of the Salt Lake Valley.",
+    "image": "images/state-capitol.webp"
+  },
+  {
+    "name": "City Creek Center",
+    "address": "50 S Main St, Salt Lake City, UT 84101",
+    "description": "An open-air shopping center with a retractable roof, creek, and upscale shops and dining.",
+    "image": "images/city-creek.webp"
+  },
+  {
+    "name": "Liberty Park",
+    "address": "600 E 900 S, Salt Lake City, UT 84105",
+    "description": "A large public park with a pond, walking trails, playgrounds, and the Tracy Aviary bird sanctuary.",
+    "image": "images/liberty-park.webp"
+  },
+  {
+    "name": "Red Butte Garden",
+    "address": "300 Wakara Way, Salt Lake City, UT 84108",
+    "description": "A botanical garden and arboretum with trails and outdoor concerts in the foothills of the Wasatch Range.",
+    "image": "images/red-butte.webp"
+  },
+  {
+    "name": "The Leonardo Museum",
+    "address": "209 E 500 S, Salt Lake City, UT 84111",
+    "description": "An interactive museum combining science, technology, and art for hands-on learning experiences.",
+    "image": "images/leonardo.webp"
+  },
+  {
+    "name": "Hogle Zoo",
+    "address": "2600 Sunnyside Ave S, Salt Lake City, UT 84108",
+    "description": "A 42-acre zoo housing over 800 animals from around the world with themed habitats and exhibits.",
+    "image": "images/hogle-zoo.webp"
+  },
+  {
+    "name": "Natural History Museum of Utah",
+    "address": "301 Wakara Way, Salt Lake City, UT 84108",
+    "description": "A museum highlighting Utah’s natural wonders, from dinosaurs to geology to Native American heritage.",
+    "image": "images/natural-history.webp"
+  }
+]

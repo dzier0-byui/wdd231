@@ -1,0 +1,91 @@
+
+.attractions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
+    max-width: 1200px;
+    margin: 2rem auto;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.attraction-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0.3,0.3,0.3,0.3);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.attraction-card:hover {
+    transform: translateY(-3px);
+}
+
+.attraction-card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+    color: #222;
+}
+
+.attraction-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.attraction-content img {
+    width: 50%; 
+    max-width: 250px;    
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.attraction-info {
+    text-align: left;
+    max-width: 600px;
+    flex: 1;
+
+}
+
+.attraction-info .description {
+    margin-bottom: 0.5rem;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.attraction-info .address {
+    font-style: italic;
+    color: #666;
+}
+
+@media (max-width: 640px) {
+    .attractions-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+
+@media (min-width: 641px) {
+    .attraction-card {
+        text-align: left;
+    }
+
+    .attraction-content {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .attraction-content img {
+        flex: 0 0 220px; 
+    }
+
+    .attraction-info {
+        padding-left: 1rem;
+    }
+}
