@@ -84,7 +84,6 @@ footer {
     border-bottom: none;
 }
 
-/* Headings */
 h1 {
     text-align: center;
     margin: 1rem 0;
@@ -95,13 +94,11 @@ h1 {
     border-top: none !important;
 }
 
-/* Section dividers */
 main > * {
     border-top: 1px solid #ccc;
     padding: 1rem 0;
 }
 
-/* View toggle */
 .view-toggle {
     text-align: center;
     margin: 1rem 0;
