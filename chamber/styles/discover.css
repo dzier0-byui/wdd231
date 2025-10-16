@@ -75,6 +75,22 @@
     color: #666;
 }
 
+.learn-more {
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin-top: 0.75rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.learn-more:hover {
+  background-color: #000000;
+  color: white;
+}
+
 @media (max-width: 640px) {
     .attractions-grid {
         grid-template-columns: 1fr; 

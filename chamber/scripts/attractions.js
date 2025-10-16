@@ -19,6 +19,7 @@ function displayAttractions(attractions) {
             <div class="attraction-info">
                 <p class="description">${attraction.description}</p>
                 <p class="address">${attraction.address}</p>
+                <button class="learn-more">Learn More</button>
             </div>
         </div>
         `;
