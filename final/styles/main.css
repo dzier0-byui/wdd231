@@ -1,0 +1,228 @@
+.site-header {
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.site-header .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.site-header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.site-header h1 {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    text-decoration: underline;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--content-bg);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #026d33;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.featured-courses {
+  padding: 3rem 2rem;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.featured-courses h2 {
+  font-family: var(--font-heading);
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.featured-courses .course-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.featured-courses .course-card {
+  background-color: var(--content-bg);
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.featured-courses .course-card:hover {
+  transform: translateY(-4px);
+}
+
+.featured-courses img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.featured-courses h3 {
+  color: var(--primary-color);
+  font-family: var(--font-heading);
+  margin: 0.75rem 0;
+}
+
+.featured-courses p {
+  font-size: 0.95rem;
+  padding: 0 1rem 1rem;
+}
+
+.featured-courses .learn-more {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.featured-courses .learn-more:hover {
+  background-color: #026b35;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-content {
+        order: 2;
+    }
+
+    .hero-image {
+        order: 1;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: var(--primary-color);
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .nav-menu a {
+        padding: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+
+    .site-header {
+        justify-content: space-between;
+    }
+}

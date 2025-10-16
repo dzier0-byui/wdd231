@@ -1,0 +1,124 @@
+{
+  "courses": [
+    {
+      "name": "Bonneville Golf Course",
+      "address": "954 Connor St, Salt Lake City, UT 84108",
+      "image": "images/bonneville.webp",
+      "description": "A classic Salt Lake course with rolling hills and scenic views of the valley. Known for its fast greens and great layout.",
+      "priceRange": "$40 - $60",
+      "difficulty": "Intermediate",
+      "features": ["18 Holes", "Driving Range", "Restaurant"],
+      "website": "https://slc-golf.com/bonneville/"
+    },
+    {
+      "name": "Mountain Dell Golf Course",
+      "address": "Interstate 80, Exit 134, Salt Lake City, UT 84109",
+      "image": "images/mountaindell.webp",
+      "description": "A beautiful mountain course just 15 minutes from downtown Salt Lake. Features two 18-hole layouts surrounded by forest and wildlife.",
+      "priceRange": "$45 - $65",
+      "difficulty": "Challenging",
+      "features": ["36 Holes", "Cart Rental", "Pro Shop"],
+      "website": "https://slc-golf.com/mountain-dell/"
+    },
+    {
+      "name": "Nibley Park Golf Course",
+      "address": "2780 S 700 E, Salt Lake City, UT 84106",
+      "image": "images/nibley2.webp",
+      "description": "A friendly and accessible 9-hole course, perfect for beginners and quick rounds. Offers a relaxed community atmosphere.",
+      "priceRange": "$20 - $30",
+      "difficulty": "Beginner",
+      "features": ["9 Holes", "Walking Friendly", "Practice Green"],
+      "website": "https://slc-golf.com/nibley-park/"
+    },
+    {
+      "name": "Old Mill Golf Course",
+      "address": "6080 Wasatch Blvd, Holladay, UT 84121",
+      "image": "images/oldmill.webp",
+      "description": "A modern, scenic course overlooking the Salt Lake Valley. Known for elevation changes and panoramic mountain views.",
+      "priceRange": "$50 - $70",
+      "difficulty": "Advanced",
+      "features": ["18 Holes", "Driving Range", "Event Venue"],
+      "website": "https://slco.org/old-mill-golf-course/"
+    },
+    {
+      "name": "Fore Lakes Golf Course",
+      "address": "1285 W 4700 S, Taylorsville, UT 84123",
+      "image": "images/forelakes.webp",
+      "description": "A well-maintained public course with both 9-hole and 18-hole options. Ideal for family outings and casual play.",
+      "priceRange": "$25 - $40",
+      "difficulty": "Beginner to Intermediate",
+      "features": ["27 Holes", "Driving Range", "Club Rental"],
+      "website": "https://forelakesgolf.com/"
+    },
+    {
+      "name": "Stonebridge Golf Club",
+      "address": "4415 Links Dr, West Valley City, UT 84120",
+      "image": "images/stonebridge.webp",
+      "description": "A 27-hole championship facility offering a challenging layout with water features and professional conditions.",
+      "priceRange": "$50 - $75",
+      "difficulty": "Advanced",
+      "features": ["27 Holes", "Practice Facilities", "Pro Shop"],
+      "website": "https://www.golfstonebridgeutah.com/"
+    },
+    {
+      "name": "Rose Park Golf Course",
+      "address": "1386 N Redwood Rd, Salt Lake City, UT 84116",
+      "image": "images/rosepark.webp",
+      "description": "A flat, walkable course great for all skill levels. Features tree-lined fairways and a relaxed, welcoming atmosphere.",
+      "priceRange": "$35 - $50",
+      "difficulty": "Intermediate",
+      "features": ["18 Holes", "Driving Range", "Junior Programs"],
+      "website": "https://slc-golf.com/rose-park/"
+    },
+    {
+      "name": "Glendale Golf Course",
+      "address": "1630 W 2100 S, Salt Lake City, UT 84119",
+      "image": "images/glendale.webp",
+      "description": "A recently redesigned course offering open fairways and water hazards. Great for a quick 18-hole round close to downtown.",
+      "priceRange": "$30 - $45",
+      "difficulty": "Intermediate",
+      "features": ["18 Holes", "Driving Range", "Clubhouse"],
+      "website": "https://slc-golf.com/glendale/"
+    },
+    {
+      "name": "Murray Parkway Golf Course",
+      "address": "6345 S Murray Pkwy Ave, Murray, UT 84123",
+      "image": "images/murray.webp",
+      "description": "A scenic course along the Jordan River Parkway with wide fairways, water hazards, and beautiful mountain views.",
+      "priceRange": "$35 - $55",
+      "difficulty": "Intermediate",
+      "features": ["18 Holes", "Cart Rental", "Practice Green"],
+      "website": "https://murray.utah.gov/189/Murray-Parkway-Golf-Course"
+    },
+    {
+      "name": "Riverbend Golf Course",
+      "address": "1080 E 7800 S, Riverton, UT 84065",
+      "image": "images/riverbend.webp",
+      "description": "A challenging course with tight fairways and water in play on many holes. Popular among locals for its layout and condition.",
+      "priceRange": "$40 - $60",
+      "difficulty": "Advanced",
+      "features": ["18 Holes", "Driving Range", "Pro Shop"],
+      "website": "https://slco.org/parks-recreation/facilities/golf/riverbend/"
+    },
+    {
+      "name": "South Mountain Golf Club",
+      "address": "1247 Mike Weir Dr, Draper, UT 84020",
+      "image": "images/southmountain.webp",
+      "description": "A hillside course with dramatic elevation changes and spectacular views of the Salt Lake Valley. Designed by David Graham and Gary Panks.",
+      "priceRange": "$60 - $85",
+      "difficulty": "Challenging",
+      "features": ["18 Holes", "Practice Range", "Restaurant"],
+      "website": "https://www.southmountaingc.com/"
+    },
+    {
+      "name": "Thanksgiving Point Golf Club",
+      "address": "3300 W Clubhouse Dr, Lehi, UT 84043",
+      "image": "images/thanksgiving.webp",
+      "description": "A championship-caliber course designed by Johnny Miller. Known for its length, difficulty, and beautiful landscaping along the Jordan River.",
+      "priceRange": "$70 - $100",
+      "difficulty": "Expert",
+      "features": ["18 Holes", "Driving Range", "Pro Shop", "Restaurant"],
+      "website": "https://www.thanksgivingpoint.org/golf"
+    }
+  ]
+}

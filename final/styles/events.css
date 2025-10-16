@@ -1,0 +1,86 @@
+.events-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.events-page h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.events-page .intro-text {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+#events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.event-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.event-card h3.event-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+}
+
+.event-card p {
+    margin: 0.4rem 0;
+    line-height: 1.5;
+}
+
+.event-card p.event-date,
+.event-card p.event-location {
+    font-weight: 500;
+    color: #555;
+}
+
+.event-card .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #006633;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.event-card .btn:hover {
+    background-color: #004d26;
+    transform: translateY(-2px);
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    .events-page h2 {
+        font-size: 1.7rem;
+    }
+
+    .event-card {
+        padding: 1rem;
+    }
+}

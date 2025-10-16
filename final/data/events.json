@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Mountain Dell Open",
+    "date": "2025-10-25",
+    "location": "Mountain Dell Golf Course",
+    "description": "Join the annual Mountain Dell Open! All skill levels welcome. Prizes for top finishers.",
+    "link": "#"
+  },
+  {
+    "name": "Salt Lake City Charity Scramble",
+    "date": "2025-11-08",
+    "location": "Bonneville Golf Course",
+    "description": "A fun 4-person scramble supporting local charities. Registration required.",
+    "link": "#"
+  },
+  {
+    "name": "Autumn Classic Invitational",
+    "date": "2025-11-15",
+    "location": "Red Butte Golf Club",
+    "description": "Competitive invitational tournament. Limited spots, advanced registration recommended.",
+    "link": "#"
+  },
+  {
+    "name": "Winter League Kickoff",
+    "date": "2025-12-01",
+    "location": "Salt Lake Municipal Golf Course",
+    "description": "Start of the winter league! Casual play, weekly scoring, open to all skill levels.",
+    "link": "#"
+  },
+  {
+    "name": "Holiday Golf Bash",
+    "date": "2025-12-20",
+    "location": "Bonneville Golf Course",
+    "description": "Celebrate the season with a festive round of golf, prizes, and refreshments.",
+    "link": "#"
+  }
+]
