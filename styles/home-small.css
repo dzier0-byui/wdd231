@@ -2,7 +2,7 @@
     main {
         grid-template-columns: 1fr;
     }
-    .section-coursework, .section-knysna, .section-certificate {
+    .section-student, .section-about, .section-certificate {
         grid-column: span 1;
     }
 
