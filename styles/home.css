@@ -162,6 +162,11 @@ footer {
     justify-content: space-around;
 }
 
+.footer-socials {
+    display: flex;
+    flex-direction: column;
+}
+
 .individual-social {
     padding: 5px;
 }
