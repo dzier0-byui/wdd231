@@ -113,7 +113,7 @@ section h2 {
     width: 110px;
     border-radius: 10px;
     color:white;
-    border: black 1px solid;
+    border: white 1px solid;
 }
 
 .classes-nav button:hover {
@@ -144,7 +144,7 @@ ul {
     padding-bottom: 15px;
     background-color: rgb(95, 21, 21);
     border-radius: 10px;
-    border: black 1px solid;
+    border: white 1px solid;
 }
 
 .completed{
@@ -158,4 +158,16 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.individual-social {
+    padding: 5px;
+}
+
+.social-link {
+    padding-left: 5px;
+    color: #ffffff;
+    text-decoration: none;
 }
