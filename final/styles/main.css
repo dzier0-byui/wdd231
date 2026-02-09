@@ -13,11 +13,6 @@ html, body {
     margin: 0;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 main {
     flex: 1;
 }
